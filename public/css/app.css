@@ -1,7 +1,36 @@
 .div-register-form{
-    width: 30%;
+    width: 80%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30%;
+    margin-top: 10%;
+
+}
+.foot {
+    height: 80px;
+    width: 100%;
+    margin-top: 12%;
+
+
+}
+.wrong{
+    font-size: 0.7rem;
+    color: red;
+}
+.success{
+    font-size: 0.7rem;
+    color: green;
+}
+.border{
+    margin-top: 10%;
+    width: 40%;
+    height: 500px;
+    border: solid 1px #939e9b;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 70px 70px;
+    border-top-right-radius: 70px 70px;
+    border-bottom-left-radius: 70px 70px;
+    border-bottom-right-radius: 70px 70px;
+
 }
