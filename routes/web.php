@@ -16,7 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('register_form');
 })->name('home');
-//Route::post('//submit', [\App\Http\Controllers\UsersController::class, 'index'])->name('send-message');
 
 Route::controller(\App\Http\Controllers\UsersController::class)->group(function () {
 

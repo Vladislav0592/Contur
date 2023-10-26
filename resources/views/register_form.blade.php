@@ -10,7 +10,7 @@
             <form id="form">
                 @include('inc.messages')
                 <fieldset>
-                    <legend>Ваши контактные данные</legend>
+                    <p class="text">Ваши контактные данные</p>
                     <div class="mb-3">
                         <label for="disabledTextInput" class="form-label">Введите имя</label>
                         <input type="text" id="name" name="name" class="form-control" placeholder="Введите имя"
@@ -26,8 +26,9 @@
                         <input type="number" id="phone" name="phone" class="form-control" placeholder="Введите телефон"
                                minlength="6" maxlength="20" required>
                     </div>
-                    <div id="div"></div>
+                    <div id="div">
                     <button type="submit" class="btn btn-primary" id="send">Отправить</button>
+                    </div>
                 </fieldset>
             </form>
         </div>

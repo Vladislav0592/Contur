@@ -6,12 +6,17 @@
     margin-top: 10%;
 
 }
+#header-2{
+    display: none;
+}
 .foot {
     height: 80px;
     width: 100%;
     margin-top: 12%;
 
-
+}
+.text{
+    font-size: 2vw;
 }
 .wrong{
     font-size: 0.7rem;
@@ -32,5 +37,41 @@
     border-top-right-radius: 70px 70px;
     border-bottom-left-radius: 70px 70px;
     border-bottom-right-radius: 70px 70px;
+}
 
+@media (max-width: 880px) {
+
+    .text{
+        font-size: 15px;
+    }
+    #header-2{
+        display: block;
+    }
+    .border{
+        margin-top: 10%;
+        width: 80%;
+        height: 500px;
+        border: solid 1px #939e9b;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .div-register-form{
+        width: 95%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+
+    }
+    .foot {
+        height: 50px;
+        width: 100%;
+        margin-top: 12%;}
+    #div{
+        width: 15px;
+        height: auto;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
